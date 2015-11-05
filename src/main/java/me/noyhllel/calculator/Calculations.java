@@ -3,8 +3,7 @@ package me.noyhllel.calculator;
 /**
  * Created by Noy on 22/02/2015.
  */
-public enum Calculations {
-
+enum Calculations {
     ADD(new CalculatorDelegate() {
         public Double performCalculations(Double x, Double y) throws ArithmeticException {
             return x+y;
@@ -43,6 +42,4 @@ public enum Calculations {
         this.key = y;
         this.delegate = x;
     }
-
-
 }

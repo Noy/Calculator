@@ -6,6 +6,6 @@ package me.noyhllel.calculator;
 /**
  * Created by Noy on 22/02/2015.
  */
-public interface CalculatorDelegate {
+interface CalculatorDelegate {
     Double performCalculations(Double x, Double y) throws ArithmeticException;
 }

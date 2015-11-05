@@ -6,10 +6,9 @@ import java.util.Scanner;
 /**
  * Created by Noy on 22/02/2015.
  */
-public class Calculator {
+class Calculator {
 
     public static void main(String[] args) {
-
         while(true) {
             try {
                 doCalculations();
@@ -18,11 +17,9 @@ public class Calculator {
                 break;
             }
         }
-
     }
 
     private static void doCalculations() {
-
         Scanner scan = new Scanner(System.in);
         print("Please type a calculation!");
         String s = scan.next();
